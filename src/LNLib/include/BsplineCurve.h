@@ -16,7 +16,7 @@
 #include "LNLibExceptions.h"
 #include "LNObject.h"
 #include <vector>
-
+#include <algorithm>
 namespace LNLib
 {
 	class XYZ;

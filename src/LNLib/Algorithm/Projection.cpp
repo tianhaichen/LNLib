@@ -11,6 +11,7 @@
 #include "Projection.h"
 #include "XYZ.h"
 #include "MathUtils.h"
+#include <algorithm>
 
 LNLib::XYZ LNLib::Projection::PointToRay(const XYZ& origin, const XYZ& vector, const XYZ& Point)
 {
